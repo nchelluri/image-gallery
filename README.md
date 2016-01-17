@@ -1,6 +1,6 @@
-Pure JS Image Gallery
+Image Gallery
 ===
-This is a pure JS image gallery.
+This is a web image gallery implemented in browser-side Javascript. No server is required to host the code; you can send the whole thing to someone in a zip file attached to an email and they could run it just fine on their computer. Of course I've left out the part where the images themselves come are retrieved using the Flickr API, so an internet connection is definitely a requirement.
 
 
 ### Demo
