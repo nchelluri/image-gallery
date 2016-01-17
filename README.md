@@ -2,6 +2,15 @@ Pure JS Image Gallery
 ===
 This is a pure JS image gallery.
 
+
+### Demo
+
+You can try the gallery out at the following URL:
+<a href="https://f2748e9fc56df4158a8c3e9a4adec20b08d3148b-www.googledrive.com/host/0B0GkLDgWk7dld0c2MXdDdXgyQkE">https://f2748e9fc56df4158a8c3e9a4adec20b08d3148b-www.googledrive.com/host/0B0GkLDgWk7dld0c2MXdDdXgyQkE</a> .
+
+
+### Spec
+
 Currently, it only works with the Flickr API as an image source, but other back-ends, or a backend-agnostic version, are
 planned. At present, the gallery fetches photo data from a Flickr Group and creates a thumbnail grid. The thumbnails are
 clickable. Clicking a thumbnail opens a lightbox containing a larger version of the thumbnail image and navigation
@@ -40,6 +49,17 @@ Attributes (optional unless specified):
 - could show a loading icon on lightbox while image is loading
 - may want to tweak lightbox and button positioning so that the buttons always show up in the same spots in the viewport
 - no test coverage - could use something like QUnit at https://github.com/nchelluri/qsutil/tree/master/test or Mocha/Sinon
+
+
+### Acknowledgements
+The GIF used as the default loading indicator was generated using <a href="http://www.ajaxload.info">ajaxload.info</a> .
+Thank you to the people who run the site. I really like how I can download a free loading animation that I think looks
+good and weighs in at less than 2KB. Amazing.
+
+Minor side note, I have not come up with a reliable way to ensure that the loading GIF shows when the browser's cache is
+completely cold. I think that by the time even this tiny GIF served off of Google Drive's servers is finished loading for
+the first time by the browser, the API call to Flickr has come back with a response and rendering of the thumbnails is
+already underway or (even sometimes even complete).
 
 
 ### Contribution
