@@ -59,7 +59,7 @@ good and weighs in at less than 2KB. Amazing.
 Minor side note, I have not come up with a reliable way to ensure that the loading GIF shows when the browser's cache is
 completely cold. I think that by the time even this tiny GIF served off of Google Drive's servers is finished loading for
 the first time by the browser, the API call to Flickr has come back with a response and rendering of the thumbnails is
-already underway or (even sometimes even complete).
+already underway (or sometimes even complete).
 
 
 ### Contribution
