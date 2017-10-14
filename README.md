@@ -6,7 +6,7 @@ This is a web image gallery implemented in browser-side Javascript. No server is
 ### Demo
 
 You can try the gallery out at the following URL:
-<a href="https://f2748e9fc56df4158a8c3e9a4adec20b08d3148b-www.googledrive.com/host/0B0GkLDgWk7dld0c2MXdDdXgyQkE">https://f2748e9fc56df4158a8c3e9a4adec20b08d3148b-www.googledrive.com/host/0B0GkLDgWk7dld0c2MXdDdXgyQkE</a> .
+https://nchelluri.neocities.org/.
 
 
 ### Spec
